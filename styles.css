@@ -1,0 +1,25 @@
+body {
+    /* background-color: white; */
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    height: 10px;
+    background: linear-gradient(90deg,cyan,blue,cyan);
+    border-color: black;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
