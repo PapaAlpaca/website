@@ -5,7 +5,7 @@ import "../css/styles.css"
 function Projects(props) {
     return (
         <>
-            <div className={"projects container"}>
+            <div id={"projects"} className={"container"}>
                 <div className={"col"}>
                     <ProjTile
                         title={"SafeScroll Chrome Extension"}

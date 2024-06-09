@@ -9,14 +9,14 @@ function Navbar() {
     }
 
     return (
-        <nav className={"navbar"}>
-            <div className={"links"}>
+        <nav id={"navbar"}>
+            <div id={"links"}>
                 <NavLink to={"/"}>Home</NavLink>
                 <NavLink to={"/projects"}>Projects</NavLink>
                 {/*<Link to={"/"}>Resumé</Link>*/}
             </div>
-            <div className={"themes"}>
-                <select onChange={changeTheme}>
+            <div id={"themes"}>
+                <select id={"theme"} onChange={changeTheme}>
                     <option>Light</option>
                     <option>Dark</option>
                     <option>Auto</option>

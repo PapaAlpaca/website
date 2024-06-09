@@ -17,19 +17,6 @@ function App() {
                 <Route path={"*"} element={<NoMatch />} />
             </Routes>
         </>
-        // <Router>
-        //     <Navbar />
-        //     {/*<Routes>*/}
-        //     {/*    <Route exact path="/" element={<Home />}/>*/}
-        //     {/*</Routes>*/}
-        // </Router>
-        // <>
-        //     <Navbar className={"navbar"}/>
-        //     <div className={"content"}>
-        //         {/*<button className={"projects"} onClick={() => {alert("projects")}}>Projects</button>*/}
-        //         <Planet title={"Projects"} top={"30vh"} left={"40vw"}/>
-        //     </div>
-        // </>
     );
 }
 

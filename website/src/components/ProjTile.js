@@ -1,20 +1,26 @@
 import React from 'react';
 import "../css/styles.css";
-import {useNavigate} from "react-router-dom";
 
 function ProjTile(props) {
-    const navigate = useNavigate()
+    const Button = ({onClick, children, as: Component='button', ...rest}) => {
+        return (
+            <Component className={"tile"} {...rest}>
+                {children}
+            </Component>
+        )
+    }
+
     return (
-        <div className={"tile"} onClick={() => navigate(props.url)}>
+        <Button as={"a"} href={props.url}>
             <div className={"image"}>
                 <img src={props.img} alt={"icon"}/>
             </div>
             <div className={"content"}>
-                <text className={"title"}>{props.title}</text>
-                <text className={"subtitle"}>{props.subtitle}</text>
-                <text className={"description"}>{props.description}</text>
+                <div className={"title"}>{props.title}</div>
+                <div className={"subtitle"}>{props.subtitle}</div>
+                <div className={"description"}>{props.description}</div>
             </div>
-        </div>
+        </Button>
     );
 }
 
