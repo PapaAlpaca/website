@@ -1,6 +1,6 @@
-import './Navbar.css'
+import '../css/styles.css'
 import React from 'react'
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
 
@@ -11,8 +11,8 @@ function Navbar() {
     return (
         <nav className={"navbar"}>
             <div className={"links"}>
-                <Link to={"/website"}>Home</Link>
-                <Link to={"/projects"}>Projects</Link>
+                <NavLink to={"/"}>Home</NavLink>
+                <NavLink to={"/projects"}>Projects</NavLink>
                 {/*<Link to={"/"}>Resumé</Link>*/}
             </div>
             <div className={"themes"}>

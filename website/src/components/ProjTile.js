@@ -1,13 +1,11 @@
 import React from 'react';
-import "./ProjTile.css";
-
-const goTo = () => {
-
-}
+import "../css/styles.css";
+import {useNavigate} from "react-router-dom";
 
 function ProjTile(props) {
+    const navigate = useNavigate()
     return (
-        <div className={"tile"}>
+        <div className={"tile"} onClick={() => navigate(props.url)}>
             <div className={"image"}>
                 <img src={props.img} alt={"icon"}/>
             </div>

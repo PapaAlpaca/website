@@ -1,25 +1,25 @@
 import React from 'react';
 import ProjTile from "./ProjTile";
-import "./Projects.css"
+import "../css/styles.css"
 
 function Projects(props) {
     return (
         <>
-            <div className={"container"}>
+            <div className={"projects container"}>
                 <div className={"col"}>
                     <ProjTile
-                        title={"Title"}
-                        subtitle={"Subtitle"}
+                        title={"SafeScroll Chrome Extension"}
+                        subtitle={"Dubhacks 2023 Winner"}
                         description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://soyacincau.com/wp-content/uploads/2020/09/200925-ponyo049.jpg"}
-                        url={"www.google.com"}
+                        img={"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/623/924/datas/original.png"}
+                        url={"https://devpost.com/software/safescroll"}
                     />
                     <ProjTile
                         title={"Title"}
                         subtitle={"Subtitle"}
                         description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
                         img={"https://ghiblicollection.com/cdn/shop/files/MailPopUpImage@2x.png?v=1688148914"}
-                        url={"www.google.com"}
+                        url={"https://www.google.com"}
                     />
                 </div>
                 <div className={"col"}>
@@ -33,7 +33,7 @@ function Projects(props) {
                         title={"Title"}
                         subtitle={"Subtitle"}
                         description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-                        img={"https://ghiblicollection.com/cdn/shop/products/Howls_Cover_SB_72dpi.png?v=1675275651"}
+                        img={"../images/icon.png"}
                         url={"www.google.com"}
                     />
                 </div>
