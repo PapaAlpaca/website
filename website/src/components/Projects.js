@@ -8,7 +8,7 @@ function Projects(props) {
             <div id={"projects"} className={"container"}>
                 <div className={"col"}>
                     <ProjTile
-                        title={"SafeScroll Chrome Extension"}
+                        title={"SafeScroll"}
                         subtitle={"Dubhacks 2023 Winner"}
                         description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
                         img={"https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/623/924/datas/original.png"}
@@ -39,38 +39,6 @@ function Projects(props) {
                 </div>
             </div>
         </>
-        // window.width <= 100 ? oneCol : doubleCol
-        // <>
-        //     <div className={"container"}>
-        //         <ProjTile
-        //             title={"Title"}
-        //             subtitle={"Subtitle"}
-        //             description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-        //             img={"https://soyacincau.com/wp-content/uploads/2020/09/200925-ponyo049.jpg"}
-        //             url={"www.google.com"}
-        //         />
-        //         <ProjTile
-        //             title={"Title 2"}
-        //             subtitle={"Subsubtitle"}
-        //             description={"ahdskhgljkahgdkjlhgjkahfjkhalkg hahkldhgjklahjklghadjklsfhjkalghe uwiahlgkjdshguirehaljkdhsj kghjkaelhsiuodlghejlakhsjdfuiel ahgjkdahsdfuilehuailgrhjks ldhfjkaghjkrelahjfksdalf"}
-        //             img={"https://upload.wikimedia.org/wikipedia/commons/7/78/Image.jpg"}
-        //         />
-        //     </div>
-        //     <div className={"container"}>
-        //         <ProjTile
-        //             title={"Title"}
-        //             subtitle={"Subtitle"}
-        //             description={"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"}
-        //             img={"https://soyacincau.com/wp-content/uploads/2020/09/200925-ponyo049.jpg"}
-        //         />
-        //         <ProjTile
-        //             title={"Title 2"}
-        //             subtitle={"Subsubtitle"}
-        //             description={"ahdskhgljkahgdkjlhgjkahfjkhalkg hahkldhgjklahjklghadjklsfhjkalghe uwiahlgkjdshguirehaljkdhsj kghjkaelhsiuodlghejlakhsjdfuiel ahgjkdahsdfuilehuailgrhjks ldhfjkaghjkrelahjfksdalf"}
-        //             img={""}
-        //         />
-        //     </div>
-        // </>
     );
 }
 

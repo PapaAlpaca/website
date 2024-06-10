@@ -11,10 +11,8 @@ function ProjTile(props) {
     }
 
     return (
-        <Button as={"a"} href={props.url}>
-            <div className={"image"}>
-                <img src={props.img} alt={"icon"}/>
-            </div>
+        <Button as={"a"} href={props.url} target={"_blank"}>
+            <img src={props.img} alt={"icon"}/>
             <div className={"content"}>
                 <div className={"title"}>{props.title}</div>
                 <div className={"subtitle"}>{props.subtitle}</div>

@@ -55,7 +55,7 @@ html {
 }
 
 #projects {
-    width: 70%;
+    width: 70vw;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -69,6 +69,7 @@ html {
     display: flex;
 
     margin: 10px;
+    height: 33vh;
 
     border: none;
     background-color: rgba(0,0,0,0);
@@ -81,21 +82,15 @@ html {
     transform: scale(1.05);
 }
 
-.tile .image {
-    flex: 2;
-
-    background-color: white;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.tile .image img {
-    width: 100%;
-    vertical-align: top;
+.tile img {
+    width: 20vw;
+    height: 33vh;
 
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border: 1px solid grey;
+    object-fit: cover;
+    object-position: center;
 }
 
 .tile .content {
@@ -103,6 +98,7 @@ html {
     flex-direction: column;
     flex: 1;
 
+    width: 30vmin;
     padding-left: 10px;
 
     background-color: white;
